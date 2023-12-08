@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yetri Valentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            background-image: url('background_Foto.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        nav {
+            background-image: url('biologi.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            display: block;
+            color: rgb(9, 157, 41);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(0, 0, 0);
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: rgb(9, 157, 41);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(9, 157, 41);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+
+        .video-description {
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Materi 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="MKU.html">Kuliah Umum</a>
+            <a href="Materi.html">Materi Biologi</a>
+            <a href="download.html">Download Materi</a>
+        </div>
+    </div>
+    <a href="Tentang.html">Tentang Saya</a>
+</nav>
+
+<h1>Materi Biologi</h1>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/EbP1CN9k-SY" frameborder="0" allowfullscreen></iframe>
+    <div class="video-description">
+        <p><h1>Biologi sel bagian 1 struktur dasar dan fungsi organel</h1></p>
+    </div>
+</div>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/a_unSJZ0GH8" frameborder="0" allowfullscreen></iframe>
+    <div class="video-description">
+        <p><h1>Nama - Nama Latin Tulang Manusia Sistem Muskulokeletal</h1></p>
+    </div>
+</div>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/_vZ0lefPg_0" frameborder="0" allowfullscreen></iframe>
+    <div class="video-description">
+        <p><h1>Circulatory system and pathway of blood through the heart</h1></p>
+    </div>
+</div>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/paX-yBJ4yt4" frameborder="0" allowfullscreen></iframe>
+    <div class="video-description">
+        <p><h1>Jenis-jenis ekosistem air dan penghuninya</h1></p>
+    </div>
+</div>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/E_gPIg0a9lU" frameborder="0" allowfullscreen></iframe>
+    <div class="video-description">
+        <p><h1>Bagaimana sel saraf bekerja</h1></p>
+    </div>
+</div>
+
+</body>
+</html>
